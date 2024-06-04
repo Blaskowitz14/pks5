@@ -32,7 +32,7 @@ namespace pks5_core.Controllers
                 if (is_in_base is null)
                 {
                     ViewBag.Error = "Неверный логин или пароль";
-                    return View("login");
+                    return Redirect("Index");
                 }
                 else
                 {

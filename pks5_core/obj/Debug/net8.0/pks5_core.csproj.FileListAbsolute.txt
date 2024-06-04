@@ -108,3 +108,4 @@ C:\Users\Blaskowitz\source\repos\pks5_core\pks5_core\obj\Debug\net8.0\refint\pks
 C:\Users\Blaskowitz\source\repos\pks5_core\pks5_core\obj\Debug\net8.0\pks5_core.pdb
 C:\Users\Blaskowitz\source\repos\pks5_core\pks5_core\obj\Debug\net8.0\pks5_core.genruntimeconfig.cache
 C:\Users\Blaskowitz\source\repos\pks5_core\pks5_core\obj\Debug\net8.0\ref\pks5_core.dll
+C:\Users\Blaskowitz\source\repos\pks5_core\pks5_core\obj\Debug\net8.0\pks5_core.sourcelink.json

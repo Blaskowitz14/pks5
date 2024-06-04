@@ -22,7 +22,7 @@ namespace pks5_core.Controllers
 
             if (user == null)
             {
-                return RedirectToAction("Login", "Home");
+                return Redirect("Index");
             }
             SortResponse response = new SortResponse();
             var olimps_data = (from olimp in db.Olimp
@@ -61,7 +61,7 @@ namespace pks5_core.Controllers
 
             if (user == null)
             {
-                return RedirectToAction("Login", "Home");
+                return Redirect("Index");
             }
             SearchResponse response = new SearchResponse();
             var marks_data = (from mark in db.Marks
@@ -82,7 +82,7 @@ namespace pks5_core.Controllers
 
             if (user == null)
             {
-                return RedirectToAction("Login", "Home");
+                return Redirect("Index");
             }
 
             var marks_data = (from mark in db.Marks
@@ -105,7 +105,7 @@ namespace pks5_core.Controllers
 
             if (user == null)
             {
-                return RedirectToAction("Login", "Home");
+                return Redirect("Index");
             }
 
             var prepods_data = (from prepod in db.Prepods
